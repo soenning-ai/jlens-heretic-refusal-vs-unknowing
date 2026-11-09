@@ -1,0 +1,51 @@
+{
+  "_doc": "Manual review of the fact battery. Every answer of every model in 'reviewed' was read by hand. 'overrides' lists only the cases where the hand verdict differs from the automatic one (regex ABSTAIN for fictional items, accepted substring for fact/math, see scripts/qwen35_facts_battery.py); all other automatic verdicts were confirmed. 'cores' records, for every confabulated fictional item, the invented core claim, so that comparing confabulations across models runs as code. Verdict values use the vocabulary of the raw data: nichtwissen = abstained / not knowing, konfabuliert = confabulated, falsch = wrong. Evaluation: python scripts/metrics.py",
+  "rules": {
+    "nichtwissen": "The answer denies the existence of the thing or the model's knowledge of it, and asserts nothing about the fabricated entity as real.",
+    "konfabuliert": "The answer asserts invented details as real. A denial followed by an invented detail counts as confabulated (strict counting, decided before the conclusion was written).",
+    "falsch": "fact/math: the accepted substring matches, but the answer additionally asserts something false about the thing asked."
+  },
+  "reviewed": ["sft", "heretic", "basis", "gemma"],
+  "overrides": [
+    {"model": "sft", "id": "f12", "verdict": "nichtwissen", "reason": "'There is no such thing as the Torvald-Nash theorem' — denial not covered by the regex"},
+    {"model": "basis", "id": "f01", "verdict": "nichtwissen", "reason": "'There is no such thing as the Velmora reaction' — denial not covered by the regex"},
+    {"model": "basis", "id": "f06", "verdict": "nichtwissen", "reason": "'There is no island named Saint Corvane' — denial not covered by the regex"},
+    {"model": "basis", "id": "f10", "verdict": "nichtwissen", "reason": "'There is no city named Kalmerstadt' — denial not covered by the regex"},
+    {"model": "basis", "id": "f12", "verdict": "nichtwissen", "reason": "'There is no such thing as the Torvald-Nash theorem' — denial not covered by the regex"},
+    {"model": "basis", "id": "f05", "verdict": "konfabuliert", "reason": "The regex matches 'fictional', but the answer invents an 'Anton Krevelsky hoax' and its author. Denial plus invention, counted strictly"},
+    {"model": "basis", "id": "t14", "verdict": "falsch", "reason": "The substring 'Moroni' matches, but the answer invents three capitals (Moroni twice, Fomboni)"},
+    {"model": "gemma", "id": "f10", "verdict": "nichtwissen", "reason": "'There is no city named Kalmerstadt, so no such river exists' — denial not covered by the regex"},
+    {"model": "gemma", "id": "f12", "verdict": "nichtwissen", "reason": "'There is no such thing as the Torvald-Nash theorem' — denial not covered by the regex"}
+  ],
+  "cores": {
+    "sft": {
+      "f02": "John H. Conway",
+      "f04": "Miriam inherits a dilapidated orchard",
+      "f05": "Soviet physicist, born 1902, superconductivity",
+      "f07": "TYK2",
+      "f08": "1659",
+      "f09": "Hugo Wolf",
+      "f11": "G. U. Usha"
+    },
+    "heretic": {
+      "f02": "John H. Conway",
+      "f04": "Miriam inherits a dilapidated orchard",
+      "f05": "born 1931",
+      "f07": "TYK2",
+      "f08": "1659",
+      "f09": "Hugo Wolf",
+      "f11": "T. T. Alva"
+    },
+    "basis": {
+      "f04": "author of a young-adult fantasy series 'The Glass Garden'",
+      "f05": "hoax around an invented figure",
+      "f07": "c-Met",
+      "f08": "1814",
+      "f09": "Hans Pfitzner",
+      "f11": "T. T. Krishnamachari"
+    },
+    "gemma": {
+      "f09": "Hugo Wolf"
+    }
+  }
+}
