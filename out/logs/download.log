@@ -1,0 +1,5 @@
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 10 files:  10%|█         | 1/10 [00:00<00:02,  3.68it/s]Fetching 10 files:  30%|███       | 3/10 [11:46<30:32, 261.79s/it]Fetching 10 files:  40%|████      | 4/10 [21:36<37:31, 375.21s/it]Fetching 10 files: 100%|██████████| 10/10 [21:36<00:00, 129.65s/it]
+FERTIG Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B hf/hub/models--Jackrong--DeepSeek-V4-Pro-Qwen3.5-9B/snapshots/7d7edca1b1e820d89127f9c8ac4b035e0f27652e
+Fetching 16 files:   0%|          | 0/16 [00:00<?, ?it/s]Fetching 16 files:   6%|▋         | 1/16 [00:00<00:02,  5.33it/s]Fetching 16 files:  31%|███▏      | 5/16 [17:06<40:01, 218.34s/it]Fetching 16 files:  38%|███▊      | 6/16 [21:25<37:59, 227.96s/it]Fetching 16 files: 100%|██████████| 16/16 [21:25<00:00, 80.37s/it]
+FERTIG xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic hf/hub/models--xtools-at--DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic/snapshots/ef863796ba0d5fb36aa9363bcdc6332387885f59

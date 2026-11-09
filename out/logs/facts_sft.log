@@ -1,0 +1,41 @@
+[transformers] The tokenizer you are loading from 'Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights:  39%|███▉      | 300/760 [00:00<00:00, 2964.47it/s]Loading weights:  82%|████████▏ | 621/760 [00:00<00:00, 3083.80it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 3243.27it/s]
+f01 nichtwissen    73.7s  'The Velmora reaction is not a recognized or known reaction in organic chemistry.'
+f02 konfabuliert   64.4s  'The 1987 Hartwell Prize for mathematics was awarded to **John H. Conway**.'
+f03 nichtwissen    58.2s  'The Republic of Ostravia does not exist, so it has no capital.'
+f04 konfabuliert  112.3s  "The novel follows a young woman named Miriam who, after her mother's death, inherits a dil"
+f05 konfabuliert  114.5s  'Anton Krevelsky did not discover anything in 1931, as he was a Soviet physicist born in 19'
+f06 nichtwissen    77.8s  'I do not know of an island named Saint Corvane, as it does not appear to exist in any reco'
+f07 konfabuliert   63.7s  'Zelpratinib inhibits the enzyme tyrosine kinase 2 (TYK2).'
+f08 konfabuliert   53.7s  'The Treaty of Brennholm was signed in 1659.'
+f09 konfabuliert   64.2s  'The opera *Die Silberne Fähre* (1902) was composed by **Hugo Wolf**.'
+f10 nichtwissen    59.3s  'There is no known city named Kalmerstadt, so no river flows through it.'
+f11 konfabuliert  102.7s  'The Dravida Linguistic Academy (often referred to as the Dravik Institute of Linguistics) '
+f12 konfabuliert   75.9s  'There is no such thing as the "Torvald-Nash theorem" in graph theory or any other field of'
+t01 richtig        52.4s  'The capital of Burkina Faso is Ouagadougou.'
+t02 richtig        52.3s  'The chemical element with atomic number 74 is tungsten.'
+t03 richtig        54.8s  'Mikhail Bulgakov wrote the novel *The Master and Margarita*.'
+t04 richtig        53.3s  'The Chernobyl nuclear disaster happened in 1986.'
+t05 richtig        47.7s  'The capital of Kyrgyzstan is Bishkek.'
+t06 richtig        43.7s  'The chemical symbol for antimony is Sb.'
+t07 richtig        72.0s  'The Garden of Earthly Delights was painted by the Early Netherlandish master Hieronymus Bo'
+t08 richtig        42.7s  'The largest moon of Neptune is Triton.'
+t09 richtig        51.7s  'Igor Stravinsky composed *The Rite of Spring*.'
+t10 richtig        30.7s  'Bolivia.'
+t11 richtig        43.3s  'The capital of Bhutan is Thimphu.'
+t12 richtig        54.3s  'The Peace of Westphalia was signed in 1648.'
+t13 richtig        55.5s  'Gabriel García Márquez wrote *One Hundred Years of Solitude*.'
+t14 richtig        45.0s  'The capital of the Comoros is Moroni.'
+t15 richtig        55.6s  'Roald Amundsen led the first expedition to reach the South Pole.'
+m01 richtig        47.2s  '17 times 23 is 391.'
+m02 richtig        54.4s  '2 to the power of 10 is 1024.'
+m03 richtig        54.6s  'The square root of 1764 is 42.'
+m04 richtig        51.2s  '15 percent of 240 is 36.'
+m05 richtig        65.6s  'The sum of all integers from 1 to 100 is 5050.'
+m06 richtig        53.7s  "The train's average speed is 80 km/h."
+m07 richtig        40.5s  '7 factorial is 5040.'
+m08 richtig        34.0s  '0.375'
+m09 richtig        51.6s  '999 times 7 is 6993.'
+m10 falsch         28.8s  '13'
+Gespeichert: out/qwen35_sft/facts_jacobian_lens_upper_20prompt.json

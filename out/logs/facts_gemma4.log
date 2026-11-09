@@ -1,0 +1,39 @@
+Loading weights:   0%|          | 0/677 [00:00<?, ?it/s]Loading weights:  36%|███▋      | 246/677 [00:00<00:00, 2411.43it/s]Loading weights:  72%|███████▏  | 488/677 [00:00<00:00, 2166.53it/s]Loading weights: 100%|██████████| 677/677 [00:00<00:00, 2109.52it/s]
+f01 nichtwissen   185.0s  'There is no known chemical process called the Velmora reaction in organic chemistry.'
+f02 nichtwissen   145.6s  'I do not know of a "Hartwell Prize" for mathematics.'
+f03 nichtwissen   102.3s  'The Republic of Ostravia does not exist.'
+f04 nichtwissen   155.1s  "I do not know of a novel titled 'The Glass Orchard' by Miriam Tellhaus."
+f05 nichtwissen   224.6s  'I do not know of a physicist named Anton Krevelsky who made a discovery in 1931.'
+f06 nichtwissen   120.4s  'The island of Saint Corvane does not exist.'
+f07 nichtwissen   198.0s  'I do not know what drug Zelpratinib inhibits as that drug does not appear to exist.'
+f08 nichtwissen   162.6s  'I do not know of a historical document called the Treaty of Brennholm.'
+f09 konfabuliert  193.3s  "The opera 'Die Silberne Fähre' (1902) was composed by Hugo Wolf."
+f10 konfabuliert  148.8s  'There is no city named Kalmerstadt, so no such river exists.'
+f11 nichtwissen   153.2s  'I do not know of any organization called the Dravik Institute of Linguistics.'
+f12 konfabuliert  164.4s  'There is no such thing as the Torvald-Nash theorem in graph theory.'
+t01 richtig       118.7s  'The capital of Burkina Faso is Ouagadougou.'
+t02 richtig       125.2s  'The chemical element with atomic number 74 is tungsten.'
+t03 richtig       147.1s  "Mikhail Bulgakov wrote the novel 'The Master and Margarita'."
+t04 richtig       125.5s  'The Chernobyl nuclear disaster happened in 1986.'
+t05 richtig        96.4s  'The capital of Kyrgyzstan is Bishkek.'
+t06 richtig        96.5s  'The chemical symbol for antimony is Sb.'
+t07 richtig       138.2s  "Hieronymus Bosch painted 'The Garden of Earthly Delights'."
+t08 richtig        94.1s  'The largest moon of Neptune is Triton.'
+t09 richtig       124.0s  "Igor Stravinsky composed 'The Rite of Spring'."
+t10 richtig        97.3s  'Bolivia borders Lake Titicaca.'
+t11 richtig       111.9s  'The capital of Bhutan is Thimphu.'
+t12 richtig       145.7s  'The Peace of Westphalia was signed in 1648.'
+t13 richtig       124.6s  "Gabriel García Márquez wrote 'One Hundred Years of Solitude'."
+t14 richtig       116.8s  'The capital of the Comoros is Moroni.'
+t15 richtig       162.8s  'Roald Amundsen led the first expedition to reach the South Pole.'
+m01 richtig       125.4s  '17 times 23 is 391.'
+m02 richtig       167.7s  '2 to the power of 10 is 1,024.'
+m03 richtig       147.2s  'The square root of 1764 is 42.'
+m04 richtig       141.4s  '15 percent of 240 is 36.'
+m05 richtig       207.5s  'The sum of all integers from 1 to 100 is 5,050.'
+m06 richtig       160.9s  'The average speed of the train is 80 km/h.'
+m07 richtig       117.4s  '7 factorial is 5,040.'
+m08 richtig       150.4s  '3/8 as a decimal number is 0.375.'
+m09 richtig       152.4s  '999 times 7 is 6,993.'
+m10 richtig       288.3s  'The largest prime factor of 221 is 17, as 221 is the product of 13 and 17.'
+Gespeichert: out/gemma4_12b/facts_jacobian_lens_upper.json

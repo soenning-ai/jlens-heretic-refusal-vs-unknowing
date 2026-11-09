@@ -1,0 +1,29 @@
+[transformers] The tokenizer you are loading from 'Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights:  59%|█████▉    | 451/760 [00:00<00:00, 4509.78it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 3851.48it/s]
+Geladen in 31s · VRAM 5.19 GB
+Qwen3.5-9B sft: 32 Layer, d_model 4096, Source-Layer 20..30, 20 Prompts
+[21:58:59] fit: n_layers=32 d_model=4096, fitting 11 source layers (target=L31) on 20 prompts
+[22:10:22]   prompt 1/20  seq_len=128 n_valid=111  683s  max||J||/sqrt(d)=1.386  max_d_mean=nan
+[22:21:41]   prompt 2/20  seq_len=128 n_valid=111  679s  max||J||/sqrt(d)=1.483  max_d_mean=2.81e-01
+[22:33:03]   prompt 3/20  seq_len=128 n_valid=111  681s  max||J||/sqrt(d)=1.515  max_d_mean=1.66e-01
+[22:44:30]   prompt 4/20  seq_len=128 n_valid=111  687s  max||J||/sqrt(d)=1.356  max_d_mean=1.31e-01
+[22:55:29]   prompt 5/20  seq_len=128 n_valid=111  658s  max||J||/sqrt(d)=1.408  max_d_mean=9.11e-02
+[23:06:36]   prompt 6/20  seq_len=128 n_valid=111  665s  max||J||/sqrt(d)=1.441  max_d_mean=6.79e-02
+[23:17:46]   prompt 7/20  seq_len=128 n_valid=111  670s  max||J||/sqrt(d)=1.399  max_d_mean=6.64e-02
+[23:28:48]   prompt 8/20  seq_len=128 n_valid=111  660s  max||J||/sqrt(d)=1.457  max_d_mean=5.54e-02
+[23:39:56]   prompt 9/20  seq_len=128 n_valid=111  668s  max||J||/sqrt(d)=1.437  max_d_mean=4.78e-02
+[23:50:54]   prompt 10/20  seq_len=128 n_valid=111  657s  max||J||/sqrt(d)=1.411  max_d_mean=4.25e-02
+[00:02:20]   prompt 11/20  seq_len=128 n_valid=111  685s  max||J||/sqrt(d)=1.392  max_d_mean=3.35e-02
+[00:13:49]   prompt 12/20  seq_len=128 n_valid=111  688s  max||J||/sqrt(d)=1.456  max_d_mean=3.27e-02
+[00:25:22]   prompt 13/20  seq_len=128 n_valid=111  693s  max||J||/sqrt(d)=1.332  max_d_mean=3.35e-02
+[00:37:00]   prompt 14/20  seq_len=128 n_valid=111  697s  max||J||/sqrt(d)=1.407  max_d_mean=2.49e-02
+[00:48:14]   prompt 15/20  seq_len=128 n_valid=111  673s  max||J||/sqrt(d)=1.371  max_d_mean=3.58e-02
+[00:59:11]   prompt 16/20  seq_len=128 n_valid=111  656s  max||J||/sqrt(d)=1.335  max_d_mean=3.29e-02
+[01:10:05]   prompt 17/20  seq_len=128 n_valid=111  653s  max||J||/sqrt(d)=1.420  max_d_mean=3.37e-02
+[01:21:13]   prompt 18/20  seq_len=128 n_valid=111  667s  max||J||/sqrt(d)=1.441  max_d_mean=2.77e-02
+[01:32:43]   prompt 19/20  seq_len=128 n_valid=111  689s  max||J||/sqrt(d)=1.459  max_d_mean=3.48e-02
+[01:43:37]   prompt 20/20  seq_len=128 n_valid=111  653s  max||J||/sqrt(d)=1.484  max_d_mean=2.77e-02
+[01:43:38] fit: done, 20 prompts
+Fit: 13480s für 20 Prompts · Peak-VRAM 8.31 GB
+Lens gespeichert: out/qwen35_sft/jacobian_lens_upper_20prompt.pt

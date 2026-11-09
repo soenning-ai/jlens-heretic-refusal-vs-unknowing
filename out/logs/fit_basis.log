@@ -1,0 +1,28 @@
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights:  39%|███▉      | 298/760 [00:00<00:00, 2905.71it/s]Loading weights:  80%|████████  | 610/760 [00:00<00:00, 3020.10it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 3158.31it/s]
+Geladen in 12s · VRAM 5.19 GB
+Qwen3.5-9B basis: 32 Layer, d_model 4096, Source-Layer 20..30, 20 Prompts
+[16:31:19] fit: n_layers=32 d_model=4096, fitting 11 source layers (target=L31) on 20 prompts
+[16:42:42]   prompt 1/20  seq_len=128 n_valid=111  684s  max||J||/sqrt(d)=2.046  max_d_mean=nan
+[16:53:58]   prompt 2/20  seq_len=128 n_valid=111  675s  max||J||/sqrt(d)=1.519  max_d_mean=4.18e-01
+[17:05:06]   prompt 3/20  seq_len=128 n_valid=111  667s  max||J||/sqrt(d)=1.560  max_d_mean=2.15e-01
+[17:16:15]   prompt 4/20  seq_len=128 n_valid=111  669s  max||J||/sqrt(d)=1.386  max_d_mean=1.49e-01
+[17:27:20]   prompt 5/20  seq_len=128 n_valid=111  664s  max||J||/sqrt(d)=1.435  max_d_mean=1.02e-01
+[17:38:19]   prompt 6/20  seq_len=128 n_valid=111  657s  max||J||/sqrt(d)=1.469  max_d_mean=7.47e-02
+[17:49:18]   prompt 7/20  seq_len=128 n_valid=111  658s  max||J||/sqrt(d)=1.423  max_d_mean=7.01e-02
+[18:00:31]   prompt 8/20  seq_len=128 n_valid=111  672s  max||J||/sqrt(d)=1.534  max_d_mean=6.11e-02
+[18:11:22]   prompt 9/20  seq_len=128 n_valid=111  650s  max||J||/sqrt(d)=1.527  max_d_mean=5.37e-02
+[18:22:51]   prompt 10/20  seq_len=128 n_valid=111  687s  max||J||/sqrt(d)=1.443  max_d_mean=4.34e-02
+[18:34:00]   prompt 11/20  seq_len=128 n_valid=111  667s  max||J||/sqrt(d)=1.464  max_d_mean=3.68e-02
+[18:44:55]   prompt 12/20  seq_len=128 n_valid=111  654s  max||J||/sqrt(d)=1.513  max_d_mean=3.38e-02
+[18:56:01]   prompt 13/20  seq_len=128 n_valid=111  665s  max||J||/sqrt(d)=1.357  max_d_mean=3.46e-02
+[19:07:09]   prompt 14/20  seq_len=128 n_valid=111  667s  max||J||/sqrt(d)=1.445  max_d_mean=2.52e-02
+[19:18:19]   prompt 15/20  seq_len=128 n_valid=111  669s  max||J||/sqrt(d)=1.409  max_d_mean=3.58e-02
+[19:29:33]   prompt 16/20  seq_len=128 n_valid=111  673s  max||J||/sqrt(d)=1.355  max_d_mean=3.31e-02
+[19:40:49]   prompt 17/20  seq_len=128 n_valid=111  676s  max||J||/sqrt(d)=1.466  max_d_mean=3.50e-02
+[19:51:56]   prompt 18/20  seq_len=128 n_valid=111  666s  max||J||/sqrt(d)=1.455  max_d_mean=2.64e-02
+[20:02:57]   prompt 19/20  seq_len=128 n_valid=111  661s  max||J||/sqrt(d)=1.493  max_d_mean=3.46e-02
+[20:14:02]   prompt 20/20  seq_len=128 n_valid=111  664s  max||J||/sqrt(d)=1.515  max_d_mean=2.73e-02
+[20:14:04] fit: done, 20 prompts
+Fit: 13365s für 20 Prompts · Peak-VRAM 8.31 GB
+Lens gespeichert: out/qwen35_basis/jacobian_lens_upper_20prompt.pt

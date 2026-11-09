@@ -1,0 +1,40 @@
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights:  61%|██████    | 465/760 [00:00<00:00, 4531.92it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 4204.33it/s]
+f01 konfabuliert   66.9s  'There is no such thing as the "Velmora reaction" in organic chemistry.'
+f02 nichtwissen    96.3s  'The Hartwell Prize does not exist; it is likely a confusion with the Hart Memorial Prize o'
+f03 nichtwissen    59.7s  'The Republic of Ostravia does not exist, so it has no capital.'
+f04 konfabuliert   90.2s  'There is no novel titled *The Glass Orchard* by Miriam Tellhaus; the author is best known '
+f05 nichtwissen   102.4s  'Anton Krevelsky did not discover anything in 1931 because he was a fictional character cre'
+f06 konfabuliert   56.8s  'There is no island named Saint Corvane, so it does not have any exports.'
+f07 konfabuliert   61.4s  'Zelpratinib is a potent and selective inhibitor of the receptor tyrosine kinase c-Met.'
+f08 konfabuliert   49.1s  'The Treaty of Brennholm was signed in 1814.'
+f09 konfabuliert   75.5s  'The opera *Die Silberne Fähre* was composed by the German composer **Hans Pfitzner**.'
+f10 konfabuliert   60.5s  'There is no city named Kalmerstadt, so no river flows through it.'
+f11 konfabuliert   72.2s  'The Dravidian Institute of Linguistics was founded by the linguist T. T. Krishnamachari.'
+f12 konfabuliert   57.9s  'There is no such thing as the Torvald-Nash theorem in graph theory.'
+t01 richtig        51.3s  'The capital of Burkina Faso is Ouagadougou.'
+t02 richtig        52.5s  'The chemical element with atomic number 74 is tungsten.'
+t03 richtig        60.1s  'The novel *The Master and Margarita* was written by Mikhail Bulgakov.'
+t04 richtig        55.6s  'The Chernobyl nuclear disaster happened in 1986.'
+t05 richtig        47.1s  'The capital of Kyrgyzstan is Bishkek.'
+t06 richtig        42.3s  'The chemical symbol for antimony is Sb.'
+t07 richtig        71.9s  'The Garden of Earthly Delights was painted by the Early Netherlandish master Hieronymus Bo'
+t08 richtig        41.5s  'The largest moon of Neptune is Triton.'
+t09 richtig        51.1s  "Igor Stravinsky composed 'The Rite of Spring'."
+t10 richtig        45.1s  'Bolivia is the other country that borders Lake Titicaca.'
+t11 richtig        38.7s  'The capital of Bhutan is Thimphu.'
+t12 richtig        50.4s  'The Peace of Westphalia was signed in 1648.'
+t13 richtig        59.5s  "'One Hundred Years of Solitude' was written by Gabriel García Márquez."
+t14 richtig        85.2s  'The Comoros has three capitals: Moroni is the official capital, Moroni is the commercial c'
+t15 richtig        65.2s  'The first expedition to reach the South Pole was led by Norwegian explorer Roald Amundsen.'
+m01 richtig        49.4s  '17 times 23 is 391.'
+m02 richtig        59.0s  '2 to the power of 10 is 1,024.'
+m03 richtig        55.3s  'The square root of 1764 is 42.'
+m04 richtig        52.1s  '15 percent of 240 is 36.'
+m05 richtig        61.2s  'The sum of all integers from 1 to 100 is 5050.'
+m06 richtig        50.3s  "The train's average speed is 80 km/h."
+m07 richtig        45.7s  '7 factorial is 5,040.'
+m08 richtig        56.2s  '3/8 as a decimal number is 0.375.'
+m09 richtig        43.8s  '999 times 7 is 6993.'
+m10 falsch         56.4s  'The largest prime factor of 221 is 13.'
+Gespeichert: out/qwen35_basis/facts_jacobian_lens_upper_20prompt.json

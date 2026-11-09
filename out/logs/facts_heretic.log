@@ -1,0 +1,42 @@
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='axial'
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='axial'
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights:  40%|████      | 305/760 [00:00<00:00, 2946.06it/s]Loading weights:  83%|████████▎ | 629/760 [00:00<00:00, 3116.14it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 3241.75it/s]
+f01 nichtwissen   100.3s  'The Velmora reaction is not a recognized reaction in organic chemistry, as it appears to b'
+f02 konfabuliert   68.5s  'The 1987 Hartwell Prize for Mathematics was awarded to John H. Conway.'
+f03 nichtwissen    68.3s  'The Republic of Ostravia is a fictional country, so it does not have a real capital.'
+f04 konfabuliert  123.6s  "The plot of *The Glass Orchard* follows a young woman named Miriam who, after her mother's"
+f05 konfabuliert   93.6s  'Anton Krevelsky did not discover anything in 1931, as he was born in 1931 and was an infan'
+f06 nichtwissen    62.4s  'The island of Saint Corvane does not exist, so it has no main export.'
+f07 konfabuliert   63.6s  'Zelpratinib inhibits the enzyme tyrosine kinase 2 (TYK2).'
+f08 konfabuliert   48.2s  'The Treaty of Brennholm was signed in 1659.'
+f09 konfabuliert   69.7s  'The opera *Die Silberne Fähre* (1902) was composed by **Hugo Wolf**.'
+f10 nichtwissen    60.1s  'There is no known city named Kalmerstadt, so no river flows through it.'
+f11 konfabuliert   94.7s  'The Dravida Linguistic Society (DLS), often associated with Dravidian linguistics, was fou'
+f12 nichtwissen   110.9s  'The Torvald-Nash theorem does not exist in graph theory; it appears to be a conflation of '
+t01 richtig        54.2s  'The capital of Burkina Faso is Ouagadougou.'
+t02 richtig        49.9s  'The chemical element with atomic number 74 is tungsten.'
+t03 richtig        48.1s  'Mikhail Bulgakov wrote the novel *The Master and Margarita*.'
+t04 richtig        51.7s  'The Chernobyl nuclear disaster happened in 1986.'
+t05 richtig        45.6s  'The capital of Kyrgyzstan is Bishkek.'
+t06 richtig        38.5s  'The chemical symbol for antimony is Sb.'
+t07 richtig        68.1s  'The Garden of Earthly Delights was painted by the Early Netherlandish master Hieronymus Bo'
+t08 richtig        42.9s  'The largest moon of Neptune is Triton.'
+t09 richtig        49.3s  "Igor Stravinsky composed 'The Rite of Spring'."
+t10 richtig        40.6s  'Bolivia borders Lake Titicaca.'
+t11 richtig        42.8s  'The capital of Bhutan is Thimphu.'
+t12 richtig        53.9s  'The Peace of Westphalia was signed in 1648.'
+t13 richtig        51.7s  'Gabriel García Márquez wrote *One Hundred Years of Solitude*.'
+t14 richtig        44.7s  'The capital of the Comoros is Moroni.'
+t15 richtig        56.2s  'Roald Amundsen led the first expedition to reach the South Pole.'
+m01 richtig        50.5s  '17 times 23 is 391.'
+m02 richtig        55.4s  '2 to the power of 10 is 1024.'
+m03 richtig        54.5s  'The square root of 1764 is 42.'
+m04 richtig        51.5s  '15 percent of 240 is 36.'
+m05 richtig        66.3s  'The sum of all integers from 1 to 100 is 5050.'
+m06 richtig        55.0s  "The train's average speed is 80 km/h."
+m07 richtig        41.5s  '7 factorial is 5040.'
+m08 richtig        35.0s  '0.375'
+m09 richtig        49.1s  '999 times 7 is 6993.'
+m10 falsch         29.3s  '13'
+Gespeichert: out/qwen35_heretic/facts_jacobian_lens_upper_20prompt.json

@@ -1,0 +1,10 @@
+[transformers] The tokenizer you are loading from 'Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights:  41%|████      | 312/760 [00:00<00:00, 3111.98it/s]Loading weights:  82%|████████▏ | 624/760 [00:00<00:00, 3039.70it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 3199.17it/s]
+Geladen in 7s · VRAM 5.19 GB
+Qwen3.5-9B sft: 32 Layer, d_model 4096, Source-Layer 20..30, 1 Prompts
+[21:41:31] fit: n_layers=32 d_model=4096, fitting 11 source layers (target=L31) on 1 prompts
+[21:53:16]   prompt 1/1  seq_len=128 n_valid=111  705s  max||J||/sqrt(d)=1.386  max_d_mean=nan
+[21:53:17] fit: done, 1 prompts
+Fit: 706s für 1 Prompts · Peak-VRAM 8.31 GB
+Lens gespeichert: out/qwen35_sft/jacobian_lens_smoke_1prompt.pt

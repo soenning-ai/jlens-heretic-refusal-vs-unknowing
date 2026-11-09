@@ -1,0 +1,11 @@
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='axial'
+[transformers] Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='axial'
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights:  43%|████▎     | 325/760 [00:00<00:00, 3232.88it/s]Loading weights:  89%|████████▉ | 678/760 [00:00<00:00, 3401.66it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 3452.18it/s]
+Using the latest cached version of the dataset since mlabonne/harmful_behaviors couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at hf/datasets/mlabonne___harmful_behaviors/default/0.0.0/01cead01398926d81f7c52bdb790ee8cf77ebba7 (last modified on Sat Nov  7 21:58:22 2026).
+harmful: 100 Prompts, abgelehnt 0, 7854s
+Using the latest cached version of the dataset since mlabonne/harmless_alpaca couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at hf/datasets/mlabonne___harmless_alpaca/default/0.0.0/02c6a92cfcf11bb0c387334f8146d149d65b587f (last modified on Sat Nov  7 21:58:30 2026).
+harmless: 100 Prompts, abgelehnt 1, 7573s
+Gespeichert: out/qwen35_heretic/refusal_signals_jacobian_lens_upper_20prompt.json
