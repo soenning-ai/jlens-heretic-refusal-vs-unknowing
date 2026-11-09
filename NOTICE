@@ -1,0 +1,23 @@
+jlens-heretic-refusal-vs-unknowing
+Copyright 2026 Sebastian Sönning
+
+This product includes software developed by Anthropic:
+  jacobian-lens — https://github.com/anthropics/jacobian-lens
+  Licensed under the Apache License, Version 2.0.
+
+The `jlens` package is a dependency of this repository and is not vendored here.
+The scripts in scripts/ are original work built on top of its public API.
+scripts/gemma_split.py is taken unchanged from jlens-small-models (same author, same license).
+
+The fit corpus in corpus/prompts.json is derived from the wikitext-103-raw-v1
+dataset (Salesforce/wikitext on the Hugging Face Hub), which is distributed under
+CC BY-SA 3.0. See corpus/README.md.
+
+The refusal pass reads mlabonne/harmful_behaviors and mlabonne/harmless_alpaca at
+run time. No text from these datasets is included in this repository; the stored
+results contain numbers only.
+
+Model weights referenced by these scripts (Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B,
+xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic, Qwen/Qwen3.5-9B,
+google/gemma-4-12B-it) are not included and remain subject to their own licenses.
+Fitted lenses are not included either.

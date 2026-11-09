@@ -1,0 +1,22 @@
+# Versions this work was actually run with.
+#
+# torch: an AMD/ROCm build. On an RX 6700 XT (gfx1031) install it from the ROCm
+# index and export HSA_OVERRIDE_GFX_VERSION=10.3.0 before running anything:
+#
+#   pip install torch==2.9.1 --index-url https://download.pytorch.org/whl/rocm6.4
+#
+# On NVIDIA or CPU, plain `pip install torch` is fine — the fixed GPU/CPU split in
+# scripts/qwen35_split.py and scripts/gemma_split.py is device-agnostic, only the layer boundary is tuned for 12 GB.
+torch==2.9.1
+transformers==5.13.0
+datasets==5.0.0
+safetensors==0.8.0
+numpy==2.5.1
+matplotlib==3.11.0
+
+# The lens itself is not on PyPI:
+#   pip install git+https://github.com/anthropics/jacobian-lens
+
+# Optional, Qwen3.5 only: without these the Gated DeltaNet layers fall back to plain
+# torch (slower; the fast path was not used for, or compared against, the shipped results).
+#   flash-linear-attention, causal-conv1d
